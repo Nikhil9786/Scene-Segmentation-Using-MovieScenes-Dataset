@@ -21,5 +21,4 @@ for better training and testing, the dataset is split into two with 80% being us
 #### Code
 1. Make a folder to store result pkl files
 2. Run on command prompt python Scene-Segmentation.py data_dir Results to traing the model and get predicted probabilties.
-3. To test the model using [evaluate_sceneseg.py](https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/evaluate_sceneseg.py) run '''python 
-python evaluate_sceneseg.py Results ''' on command prompt.
+3. To test the model using [evaluate_sceneseg.py](https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/evaluate_sceneseg.py) run '''python evaluate_sceneseg.py Results''' on command prompt.
