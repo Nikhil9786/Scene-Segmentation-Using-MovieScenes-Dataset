@@ -19,6 +19,9 @@ for better training and testing, the dataset is split into two with 80% being us
 To calculate mAP and Miou, I took reference from the this Github [Repository](https://github.com/eluv-io/elv-ml-challenge)
 
 #### Code
+** Requirements**
+Run ```pip install -r requirements.txt```
+
 1. Make a folder to store result pkl files, in my case Results folder.
 2. Run on command prompt ```python Scene-Segmentation.py data_dir Results``` to traing the model and get predicted probabilties in pkl files.
 3. To test the model using [evaluate_sceneseg.py](https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/evaluate_sceneseg.py) run ```python evaluate_sceneseg.py Results``` on command prompt.
@@ -29,3 +32,7 @@ Following pic snippet shows all the metrics I got from training and testing this
 <p align="center">
   <img width="460" height="300" src="https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/Result.JPG">
 </p>
+
+###### Refrences
+1. Baraldi, Lorenzo, et al. “A Deep Siamese Network for Scene Detection in Broadcast Videos.” [arXiv.org, 2015]( https://arxiv.org/abs/1510.08893)
+2. Rao, Anyi, et al. “A Local-to-Global Approach to Multi-modal Movie Scene Segmentation.” [arXiv.org, 2020]( https://arxiv.org/abs/2004.02678)
