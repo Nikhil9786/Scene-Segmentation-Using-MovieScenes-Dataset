@@ -17,3 +17,9 @@ The data contains:
 for better training and testing, the dataset is split into two with 80% being used for training and 20% used for testing purpose. For better prections, different regression models were compared. I used regression model instead of any other say classification model because for prediction model when we need a number as an output(in our case predicted probabilities), it is a good idea to use regression model. Of all the models I compared, Logistic Regression model gave the best predicted probabilities and alsp mAP and Miou.
 
 > To calculate mAP and Miou, I took reference from the this Github [Repository](https://github.com/eluv-io/elv-ml-challenge)
+
+#### Code
+1. Make a folder to store result pkl files
+2. Run on command prompt python Scene-Segmentation.py data_dir Results to traing the model and get predicted probabilties.
+3. To test the model using [evaluate_sceneseg.py](https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/evaluate_sceneseg.py) run '''python 
+python evaluate_sceneseg.py Results ''' on command prompt.
