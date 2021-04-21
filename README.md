@@ -24,5 +24,6 @@ for better training and testing, the dataset is split into two with 80% being us
 3. To test the model using [evaluate_sceneseg.py](https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/evaluate_sceneseg.py) run ```python evaluate_sceneseg.py Results``` on command prompt.
 
 ##### Result Metrics
-Following pic snippet shows all the metrics I got from training and testign this model using Logistic Regression
-![Result](https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/Result.JPG)
+Following pic snippet shows all the metrics I got from training and testign this model using Logistic Regression.
+
+<img src=”https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/Result.JPG" align=”center” >
