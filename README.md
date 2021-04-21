@@ -4,7 +4,7 @@ This challenge is a part of Eluvio ML Challenge
 The main aim of this challenge was to predict the probabilities of shot boundaries, in other words also scene boundary.
 
 ## Data
-I was provided with the [dataset](https://drive.google.com/file/d/1oZSOkd4lFmbY205VKQ9aPv1Hz3T_-N6e/view).The dataset has 64 .pkl files.
+I was provided with the MovieScenes [dataset](https://drive.google.com/file/d/1oZSOkd4lFmbY205VKQ9aPv1Hz3T_-N6e/view).This dataset contains 64 .pkl files.
 The data contains:
 1. Movie level: Contains IMDB ID
 2. Shot-level: Contains four features; 'place','cast','action', and 'audio'. These features are preprocessed and encoded as two-dimensional tensors, with the first dimension indicating the number of shots within a movie, and the second dimension specifying feature vectors, in this case, 2048, 512, 512, and 512, respectively.
