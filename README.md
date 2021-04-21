@@ -24,7 +24,7 @@ To calculate mAP and Miou, I took reference from the this Github [Repository](ht
 3. To test the model using [evaluate_sceneseg.py](https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/evaluate_sceneseg.py) run ```python evaluate_sceneseg.py Results``` on command prompt.
 
 ##### Result Metrics
-Following pic snippet shows all the metrics I got from training and testign this model using Logistic Regression.
+Following pic snippet shows all the metrics I got from training and testing this model using Logistic Regression.
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/Result.JPG">
