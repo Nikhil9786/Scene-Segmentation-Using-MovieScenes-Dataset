@@ -26,4 +26,4 @@ for better training and testing, the dataset is split into two with 80% being us
 ##### Result Metrics
 Following pic snippet shows all the metrics I got from training and testign this model using Logistic Regression.
 
-<img src=”https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/Result.JPG" align=”center” >
+![Result](https://github.com/Nikhil9786/Scene-Segmentation-Using-MovieScenes-Dataset/blob/main/Result.JPG){ width="800" height="600" style="display: block; margin: 0 auto" }
