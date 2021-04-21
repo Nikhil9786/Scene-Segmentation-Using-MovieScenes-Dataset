@@ -20,6 +20,7 @@ To calculate mAP and Miou, I took reference from the this Github [Repository](ht
 
 ## Code
 ** Requirements**
+
 Run ```pip install -r requirements.txt```
 
 1. Make a folder to store result pkl files, in my case Results folder.
