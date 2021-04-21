@@ -13,10 +13,10 @@ The data contains:
     * Preliminary scene transition prediction (‘scene_transition_boundary_prediction’) - sample outputs
 
 ### Algorithm
-> Function make_predictions reads and concat all the pkl files into one. Later on convert it into dataframe which is split into features and predictors.
+Function make_predictions reads and concat all the pkl files into one. Later on convert it into dataframe which is split into features and predictors.
 for better training and testing, the dataset is split into two with 80% being used for training and 20% used for testing purpose. For better prections, different regression models were compared. I used regression model instead of any other say classification model because for prediction model when we need a number as an output(in our case predicted probabilities), it is a good idea to use regression model. Of all the models I compared, Logistic Regression model gave the best predicted probabilities and alsp mAP and Miou.
 
-> To calculate mAP and Miou, I took reference from the this Github [Repository](https://github.com/eluv-io/elv-ml-challenge)
+To calculate mAP and Miou, I took reference from the this Github [Repository](https://github.com/eluv-io/elv-ml-challenge)
 
 #### Code
 1. Make a folder to store result pkl files, in my case Results folder.
