@@ -19,7 +19,7 @@ for better training and testing, the dataset is split into two with 80% being us
 To calculate mAP and Miou, I took reference from the this Github [Repository](https://github.com/eluv-io/elv-ml-challenge)
 
 ## Code
-** Requirements**
+** Requirements **
 
 Run ```pip install -r requirements.txt```
 
