@@ -1,6 +1,5 @@
 # Scene-Segmentation-Using-MovieScenes-Dataset
 
-This challenge is a part of Eluvio ML Challenge
 The main aim of this challenge was to predict the probabilities of shot boundaries, in other words also scene boundary.
 
 ## Data
